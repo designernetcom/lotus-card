@@ -325,7 +325,7 @@ ul {
 	width: 36px;
 	height: 36px;
 	border-radius: 50%;
-	background: #007bff;
+	/* background: #007bff; */
 	transition: 0.3s;
 }
 
@@ -947,7 +947,7 @@ div#ui-datepicker-div {
 }
 
 .social-media-img:hover {
-	background: #007bff;
+	/* background: #007bff; */
 	transition: all .3s ease;
 }
 
@@ -1518,4 +1518,28 @@ button.btn-close {
 }
 .header-logo img {
 	width: 60px;
+}
+
+@media (max-width: 500px) {
+.social-icon-content {
+gap: 10px;
+}
+}
+.facebook i {
+	color: #1c1c5e;
+}
+.website i {
+	color: #0c7aa3;
+}
+.instagram i {
+	color: #9f2ca7;
+}
+.whatsapp i {
+	color: #1dbf05;
+}
+.linkedin i {
+	color: #1d5790;
+}
+.social-media-img i {
+	font-size: 25px;
 }
